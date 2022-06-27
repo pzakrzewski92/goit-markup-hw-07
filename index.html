@@ -382,16 +382,16 @@
         </ul>
     </section>
 
-    <section class="footer-newsletter">
-        <h3 class="footer-newsletter-head">
+    <section class="newsletter">
+        <h3 class="newsletter__head">
             Zapisz się do newslettera</h3>
-            <form name newsletter-form class="footer-newsletter-form"
+            <form name newsletter-form class="newsletter__form"
             method="post" autocomplete="on">
-                <input class="footer-newsletter-form-input"
+                <input class="newsletter__form-input"
                 type="email" name="email" placeholder="E-mail">
-                <button type="submit" class="footer-newsletter-button">
+                <button type="submit" class="newsletter__button">
                     Zapisz się
-                <svg class="footer-newsletter-button-icon">
+                <svg class="newsletter__button-icon">
                     <use href="/images/icons.svg#icon-icon-send-form"></use>
                 </svg>
                 </button>
@@ -402,7 +402,7 @@
 <div class="backdrop is-hidden"data-modal>
     <div class="modal">
         <button type="button" class="close-btn" data-modal-close>
-        <svg class="close-btn-icon" >
+        <svg class="close-btn__icon" >
             <use href=./images/icons.svg#icon-close-button></use>
         </svg>
     </button>
@@ -410,38 +410,38 @@
     Zostaw swoje dane w formularzu poniżej
 </h3>
 <form class="modal-window-form" name="signup-form" method="post">
-    <label class="modal-window-form-label" type="text" for="name">
+    <label class="modal-window-form__label" type="text" for="name">
         Imie
         <svg class="bg-image-name">
             <use href="./images/icons.svg#icon-icon-person-form"></use>
         </svg>
-    <input class="modal-window-form-input"
+    <input class="modal-window-form__input"
     type="text" name="name"
     id="name" required/>
     </label>
-    <label class="modal-window-form-label" for="phone_number">
+    <label class="modal-window-form__label" for="phone_number">
         Telefon
         <svg class="bg-image-phone">
             <use href="./images/icons.svg#icon-icon-phone-form"></use>
         </svg>
-    <input class="modal-window-form-input"
+    <input class="modal-window-form__input"
     type="tel" name="phone_number" id="phone_number" required/>
     </label>
-    <label class="modal-window-form-label" for="email" type="email">
+    <label class="modal-window-form__label" for="email" type="email">
         Email
         <svg class="bg-image-email">
             <use href="./images/icons.svg#icon-icon-envelope-form"></use>
         </svg>
-    <input class="modal-window-form-input"
+    <input class="modal-window-form__input"
     type="email" name="email" id="email" required/>
     
     </label>
-    <label class="modal-window-form-label" for="comment">
+    <label class="modal-window-form__label" for="comment">
         Komentarz</label>
-    <textarea class="modal-window-form-textarea" for="comment"
+    <textarea class="modal-window-form__textarea" for="comment"
     id="comment" placeholder="Wprowadź tekst"></textarea>
-    <label class="modal-window-form-terms" for="terms" name="terms">
-    <input class="modal-window-form-checkbox hidden"
+    <label class="modal-window-form__terms" for="terms" name="terms">
+    <input class="modal-window-form__checkbox hidden"
     name="terms-and-conditions" id="terms-and-conditions"
     type="checkbox">
     
@@ -449,7 +449,7 @@
     <a href="x">Regulamin</a> &nbsp;i&nbsp; 
     <a href="x">Politykę Prywatności.</a>
 </label>
-<button class="modal-window-form-button" type="submit">
+<button class="modal-window-form__button" type="submit">
     Wyślij</button>
 </form>
 
