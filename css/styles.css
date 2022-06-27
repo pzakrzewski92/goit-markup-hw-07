@@ -27,7 +27,7 @@
     height: 80px;
     
 }
-.header-menu {
+.header__menu {
    
     display: flex;
     align-items: center;
@@ -36,7 +36,7 @@
     flex-wrap: wrap; 
     height: 100%;
 }
-.header-menu-list{
+.header__list{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -46,7 +46,7 @@
 a {
     text-decoration: none;
 }
-.menu-logo {
+.header__logo {
     font-family: 'raleway';
     font-style: normal;
     font-weight: 700;
@@ -57,7 +57,7 @@ a {
     color: #212121;
     margin-right: 93px;
 }
-.web {
+.logo--web {
     color: #2196F3;}
 /* nav*/
 .menu {
@@ -70,7 +70,7 @@ line-height: 16px;
 letter-spacing: 0.02em;
 list-style: none;
     } 
-.menu .item {
+.menu__item {
 text-decoration: none;
 color:#212121;
 }
@@ -86,8 +86,8 @@ color:#212121;
     transition: color(#2196F3)
 }
 
-.menu .item:focus {color: #2196F3;}
-.item {
+.menu__item:focus {color: #2196F3;}
+.menu__item {
     justify-content: center;
     padding: 20px;
 }
@@ -121,14 +121,14 @@ a.item.current-page {
     transition: color(#2196F3)
 }
 
-.menu-contacts {
+.menu__contacts {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     list-style-type: none;
 }
 
-.menu-contact {
+.menu__contact {
 display: flex;
 font-family: 'Roboto';
 font-style: normal;
