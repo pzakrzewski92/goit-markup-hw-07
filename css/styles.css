@@ -75,9 +75,9 @@ text-decoration: none;
 color:#212121;
 }
 /*transition */
-.item:hover, .menu-contact:hover,
-.team-list-social-media-item:hover,
-.footer-social-list-item:hover
+.menu__item:hover, .menu__contact:hover,
+.social-media__item:hover,
+.footer__social-item:hover
  {
     color: #2196F3;
     transition-duration: 250ms;
@@ -168,14 +168,14 @@ color: #212121;
 .section > img {
     padding: 20px;
 }
-.portfolio-buttons {
+.portfolio__buttons {
     margin-bottom: 40px;
     display: flex;
     list-style: none;
     justify-content: center;
     
 }
-.portfolio-button {
+.portfolio__button {
     display: flex;
     background-color: #F5F4FA;
     color: #212121;
@@ -191,7 +191,7 @@ color: #212121;
     line-height: 1.6;
     height: 38px;
 }
-  .portfolio-button:hover {
+  .portfolio__button:hover {
     
     color: #FFFFFF;
     background: #2196F3;
@@ -479,7 +479,7 @@ margin-bottom: 50px;
 }
 
 
-.portfolio {
+.portfolio__list {
 list-style-type: none;
 display: flex;
 flex-wrap: wrap;
@@ -511,19 +511,19 @@ transform: ;
     border-bottom: 1px solid #eeeeee;
     border-left: 1px solid #eeeeee;
 }
-.portfolio__item--h3 {
+.portfolio__item-h3 {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
     padding: 20px 24px 4px 24px;
     color: #212121;
 }
-.portfolio__item--text{
+.portfolio__item-text{
     line-height: 1.875em;
     color: #757575;
     padding: 0px 24px 20px 24px;
     }
-.portfolio-list-item {
+.portfolio__item {
     display: flex;
     position: relative;
     overflow: hidden;
@@ -531,18 +531,18 @@ transform: ;
 }
 
 /*animation*/
-.portfolio-list-item:hover .portfolio-list-item-description,
-.portfolio-list-item:active .portfolio-list-item-description,
-.portfolio-list-item:focus .portfolio-list-item-description {
+.portfolio__item:hover .portfolio__description,
+.portfolio__item:active .portfolio__description,
+.portfolio__item:focus .portfolio__description {
   transform: translatey(0);
 }
-.portfolio-list-item-img {
+.portfolio__item-img {
     position: relative;
     overflow: hidden;
     display: block;
 }
 
-.portfolio-list-item-description {
+.portfolio__description {
     position: absolute;
     top: 0;
     left: 0;
@@ -616,8 +616,8 @@ color: #2196F3;}
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none; }
 
-.footer-link:hover,
-.footer-link:focus {
+.footer__link:hover,
+.footer__link:focus {
 color: rgba(255, 255, 255, 1);
 }
 .footer--container {
