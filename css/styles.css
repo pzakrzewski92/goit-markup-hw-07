@@ -205,11 +205,11 @@ color: #212121;
     transition: color(#2196F3)
 }
            
-        .main-section {
+        .main {
             color: #fff;
             text-align: center;
         }
-        .main-section-background {
+        .main__background {
             max-width: 1600px;
     padding: 200px 0;
     background-image: 
@@ -221,7 +221,7 @@ color: #212121;
     margin: 0 auto;
         }
     
-        .button-index {
+        .main__button {
     font-weight: 700;
     color: #fff;
     background-color: #2196F3;
@@ -233,7 +233,7 @@ color: #212121;
     box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
     cursor: pointer;
         }
-        .main-header {
+        .main__header {
             font-weight: 900;
     font-size: 44px;
     line-height: 1.36em;
@@ -242,7 +242,7 @@ color: #212121;
     margin: 0 auto 30px;
         }
 
-        .testimonials-list {
+        .testimonials {
             display: flex;
             list-style-type: none;
             flex-wrap: wrap;
@@ -250,12 +250,12 @@ color: #212121;
             margin-bottom: -30px;
             padding-bottom: 94px;
         }
-        .testimonials-list-item {
+        .testimonials__item {
             margin-left: 30px;
             margin-bottom: 30px;
             max-width: 270px;
         }
-        .testimonials-list-item > h2 {
+        .testimonials__item > h2 {
             font-size: 14px;
             font-weight: 700;
             text-transform: uppercase;
@@ -271,7 +271,7 @@ color: #212121;
     color: #757575;
 }
 
-.testimonials-list-item-icon {
+.testimonials__icon {
 display: flex;
 height: 120px;
 background: #F5F4FA;
@@ -282,12 +282,12 @@ margin-bottom: 30px;
 
 }
 
-.testimonials-list-item-image {
+.testimonials__image {
     width: 70px;
     height: 70px;
 
 }
-.head-services {
+.services__head {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.2em;
@@ -295,25 +295,25 @@ margin-bottom: 30px;
     margin-bottom: 50px;
     text-align: center;
 }
-.services-list {
+.services {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: -30px;
     margin-left: -30px;
 }
-.services-list-item {
+.services__item {
     list-style-type: none;
     margin-bottom: 30px;
     margin-left: 30px;
     position: relative;
     
 }
-.services-list-item > img {
+.services__item > img {
     min-width: 370px;
     height: 274px;
     display: block;
 }
-.services-list-item-head {
+.services__item--head {
     display: flex;
     background-color: rgba(47, 48, 58, 0.8);
     color: #fff;
@@ -333,7 +333,7 @@ margin-bottom: 30px;
             background: #F5F4FA;
            
         }
-        .team-header {
+        .team__header {
     font-weight: 700;
     font-size: 35px;
     line-height: 1.2em;
@@ -341,14 +341,14 @@ margin-bottom: 30px;
     margin-bottom: 50px;
     text-align: center;
         }
-        .team-list {
+        .team__list {
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
     margin-left: -30px;
     margin-bottom: -30px;
         }
-        .team-list-item {
+        .team__item {
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -375,13 +375,13 @@ margin-bottom: 30px;
         }
 
 
-        .team-list-item figcaption {
+        .team__item figcaption {
             display: flex;
             flex-direction: column;
             align-items: center;
             padding: 30px;
         }
-        .team-list-item img {
+        .team__item img {
     max-width: 270px;
     max-height: 260px;
     display: block;
@@ -391,7 +391,7 @@ margin-bottom: 30px;
         box-sizing: border-box;
     }
         
-        .team-list-item h3 {
+        .team__item h3 {
             display: block;
     font-size: 1.17em;
     margin-block-start: 1em;
@@ -403,12 +403,12 @@ margin-bottom: 30px;
     color: #212121;
         }
 /*social media*/
-.team-list-social-media {
+.social-media {
     list-style-type: none;
     display: flex;
     align-items: center;
 }
-.team-list-social-media-item {
+.social-media__item {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -420,18 +420,18 @@ margin-bottom: 30px;
     background-color: #fff;
     color:#afb1b8;
 }
-.team-list-social-media-item:hover,
-    .team-list-item-social-media-item:focus {
+.social-media__item:hover,
+    .social-media__item:focus {
         color: #fff;
         background-color: #2196f3;
         
 }
-.team-list-social-media-icon {
+.social-media__icon {
     width: 20px;
     height: 20px;
     fill: currentcolor;
 }
-.clients-header {
+.clients__header {
 height: 42px;
 font-family: 'Roboto';
 font-style: normal;
@@ -443,13 +443,13 @@ letter-spacing: 0.03em;
 color: #212121;
 margin-bottom: 50px;
 }
-.clients-list {
+.clients {
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
 }
 
-.clients-list-item {
+.clients__item {
     display: flex;
     justify-content: center;
     height: 92px;
@@ -464,12 +464,12 @@ margin-bottom: 50px;
     fill: #afb1b8;
  
 }
-.clients-list-item:hover, .clients-list-item:focus {
+.clients__item:hover, .clients__item:focus {
     fill: #2196f3;
     border: 1px solid #2196f3;
        
     }
-.clients-list-image {
+.clients__image {
     display: flex;
     align-self: center;
     color: currentcolor;
@@ -479,13 +479,13 @@ margin-bottom: 50px;
 }
 
 
-.portfolio-list {
+.portfolio {
 list-style-type: none;
 display: flex;
 flex-wrap: wrap;
 
 }
-.portfolio-list-item { 
+.portfolio__item { 
     display: flex;
     background-color: #fff;
     margin-left: 30px;
@@ -493,32 +493,32 @@ flex-wrap: wrap;
     max-width: 370px;
 }
 
-.portfolio-list-item figure {
+.portfolio__item figure {
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
     
 }
-.portfolio-list-item figure:hover {
+.portfolio__item figure:hover {
     /* material shadow v1 */
 cursor: pointer;
 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 0px 0px 4px 4px;
 transform: ;
 }
-.portfolio-list-item figcaption {
+.portfolio__item figcaption {
     border-right: 1px solid #eeeeee;
     border-bottom: 1px solid #eeeeee;
     border-left: 1px solid #eeeeee;
 }
-.portfolio-list-item-h3 {
+.portfolio__item--h3 {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
     padding: 20px 24px 4px 24px;
     color: #212121;
 }
-.portfolio-list-item-text{
+.portfolio__item--text{
     line-height: 1.875em;
     color: #757575;
     padding: 0px 24px 20px 24px;
