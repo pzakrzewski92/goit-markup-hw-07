@@ -570,11 +570,11 @@ transform: ;
     display: block;
 background: #2F303A;
     }
-.footer-container {
+.footer--container {
     display: flex;
     padding: 0 15px;
 }
-.footer-logo {
+.footer__logo {
     display: inline-block;
     font-family: 'raleway';
     font-style: normal;
@@ -587,15 +587,15 @@ background: #2F303A;
     color: #fff;
 
 }
-.footer-logo span {
+.footer__logo span {
 color: #2196F3;}
 .footer-link, .footer-text {
     display: block;
 }
-.footer-address {
+.footer__address {
     margin-right: 70px;
 }
-.footer-text{
+.footer__text{
     font-style: normal;
     font-size: 14px;
     line-height: 24px;
@@ -605,7 +605,7 @@ color: #2196F3;}
     color: #fff;
     margin-bottom: 9px;
 }
-.footer-link {
+.footer__link {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -615,32 +615,22 @@ color: #2196F3;}
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none; }
-.footer-text-link {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    /* or 171% */
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6); 
-    text-decoration-line: underline;
-    list-style-type: none; }
+
 .footer-link:hover,
 .footer-link:focus {
 color: rgba(255, 255, 255, 1);
 }
-.footer-container {
+.footer--container {
     display: flex;
 }
-.footer-social {
+.footer__social {
     display: flex;
     flex-direction: column;
     justify-content: start;
     padding-top: 12px;
     margin-right: 78px;
 }
-.footer-social-header {
+.footer__social-header {
     font-style: normal;
     font-weight: 700;
     text-transform: uppercase;
@@ -648,13 +638,13 @@ color: rgba(255, 255, 255, 1);
     line-height: 1.14em;
     letter-spacing: 0.03em;
 }
-.footer-social-list {
+.footer__social-list {
     display: flex;
     align-items: center;
     list-style-type: none;
     margin-top: 20px;
 }
-.footer-social-list-item {
+.footer__social-item {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -666,12 +656,12 @@ color: rgba(255, 255, 255, 1);
     background-color: rgba(255, 255, 255, 0.1);
     color: #fff;
 }
-.footer-social-icon {
+.footer__social-icon {
     width: 20px;
     height: 20px;
     fill: #fff;
 }
-.footer-social-list-item:hover {
+.footer__social-item:hover {
     color: #fff;
     background-color: #2196F3;
     cursor: pointer;
