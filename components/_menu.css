@@ -28,6 +28,7 @@
     .menu__item {
         justify-content: center;
         padding: 20px;
+        position: relative;
     }
     a.item.current-page {
         position: relative 
@@ -38,6 +39,7 @@
     }
     .current-page::after {
         content: "";
+        display: block;
         position: absolute;
         bottom: 0px;
         left: 0px;
