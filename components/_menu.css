@@ -28,7 +28,6 @@
     .menu__item {
         justify-content: center;
         padding: 20px;
-        position: relative;
     }
     a.item.current-page {
         position: relative 
