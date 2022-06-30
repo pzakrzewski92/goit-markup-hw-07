@@ -11,6 +11,8 @@
     .menu__item {
     text-decoration: none;
     color:#212121;
+    justify-content: center;
+    padding: 20px;
     }
     /*transition */
     .menu__item:hover, .menu__contact:hover,
@@ -25,12 +27,9 @@
     }
     
     .menu__item:focus {color: #2196F3;}
-    .menu__item {
-        justify-content: center;
-        padding: 20px;
-    }
+    
     a.item.current-page {
-        position: relative 
+        position: absolute 
         }
       
     .current-page {
