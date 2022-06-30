@@ -73,6 +73,7 @@ list-style: none;
 .menu__item {
 text-decoration: none;
 color:#212121;
+position: relative;
 }
 /*transition */
 .menu__item:hover, .menu__contact:hover,

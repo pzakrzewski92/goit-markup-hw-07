@@ -13,6 +13,7 @@
     color:#212121;
     justify-content: center;
     padding: 20px;
+    position: relative;
     }
     /*transition */
     .menu__item:hover, .menu__contact:hover,
