@@ -951,9 +951,9 @@ margin-right: 8px;
     outline: 1px solid #000;
 }
 .modal-window-form__checkbox:checked + .modal-window-form__terms::before {
-   background-color: #2196F3;
-   border: 3px solid #fff;
-   background-image: url(../images/icon-checkbox-vector.svg);
+    background-image: url(../images/vector-checkbox-checked.svg);
+    animation: var(--transition);
+    outline: none;
 }
 .hidden {
     display: none;
