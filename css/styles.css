@@ -621,9 +621,7 @@ color: #2196F3;}
 .footer__link:focus {
 color: rgba(255, 255, 255, 1);
 }
-.footer--container {
-    display: flex;
-}
+
 .footer__social {
     display: flex;
     flex-direction: column;
